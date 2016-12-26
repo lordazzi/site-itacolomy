@@ -1,0 +1,158 @@
+/* elementos */
+body {
+	background-image: url("../img/bg.jpg");
+	background-size: 100%;
+	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+}
+
+input[type="text"], input[type="password"], select, input[type="spacer"], textarea {
+	box-shadow: 0px 0px 10px #888;
+	-moz-box-shadow: 0px 0px 10px #888;
+	-webkit-box-shadow: 0px 0px 10px #888;
+	border: 1px solid #000;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+
+input[type="spacer"] {
+	visibility: hidden;
+}
+
+input[type="button"].normal {
+	width: 88px;
+}
+
+div.window.double {
+	width: 400px;
+}
+
+div.window {
+	background-color: #333;
+	padding: 5px;
+	border-radius: 2px;
+	border-left: 1px solid #555;
+	border-top: 1px solid #555;
+	border-right: 1px solid #000;
+	border-bottom: 1px solid #000;
+	font-family: arial;
+	color: #FFF;
+	width: 200px;
+	margin: 30px auto;
+	box-shadow: 0px 0px 1000px #CCC;
+	-moz-box-shadow: 0px 0px 1000px #CCC;
+	-webkit-box-shadow: 0px 0px 1000px #CCC;
+}
+
+/* elementos da window */
+div.window h1 {
+	font-size: 15pt;
+	padding: 3px;
+	margin: -2px;
+	font-size: 12pt;
+	float: left;
+}
+
+div.window span.title b, button, input[type="button"], input[type="submit"] {
+	cursor: pointer;
+	width: 13px;
+	clear: both;
+	font-size: 10pt;
+	display: inline-block;
+	height: 16px;
+	cursor: pointer;
+	border-left: 1px solid #555;
+	border-top: 1px solid #555;
+	border-right: 1px solid #000;
+	border-bottom: 1px solid #000;
+	background-color: #333;
+	padding: 0px 0px 0px 3px;
+	margin: 0px 0px 5px 0px;
+	color: #FFF;
+	text-align: left;
+}
+
+div.window span.title  b:hover, button:hover, input[type="button"]:hover, input[type="submit"]:hover {
+	border-left: 1px solid #777;
+	border-top: 1px solid #777;
+	border-right: 1px solid #222;
+	border-bottom: 1px solid #222;
+	background: #444;
+}
+
+div.window span.title b:active, button:active, input[type="button"]:active, input[type="submit"]:active {
+	border-right: 1px solid #777;
+	border-bottom: 1px solid #777;
+	border-left: 1px solid #222;
+	border-top: 1px solid #222;
+	background: #222;
+}
+
+div.window span {
+	display: block;
+	margin: 1px;
+	padding: 0 0 0 5px;
+}
+
+div.window span.title {
+	text-align: right;
+	cursor: move;
+}
+
+div.window span.left, div.window span.right {
+	float: left;
+	margin: 0px;
+	padding: 4px;
+}
+
+div.window span.left {
+	border-right: 1px solid #000;
+}
+
+div.window span.right {
+	border-left: 1px solid #555;
+}
+
+div.window div input[type="text"].numeric {
+	width: 32px;
+	padding: 2px 2px 2px 7px;
+}
+
+button, input[type="button"], input[type="submit"] {
+	width: auto;
+	height: auto;
+	padding: 2px 9px;
+	margin: 4px 0;
+}
+
+div.window textarea[disabled="disabled"] {
+	height: 195px;
+	max-height: 195px;
+	background-color: #FFF;
+}
+
+div.window select, div.window textarea {
+	width: 100%;
+	max-width: 100%;
+}
+
+div.window div input[type="text"], div.window div input[type="password"], div.window div input[type="spacer"], div.window div select.input {
+	width: 100px;
+	padding: 2px;
+}
+
+div.window div {
+	margin: 2px;
+	padding: 2px;
+	border-left: 1px solid #000;
+	border-top: 1px solid #000;
+	border-right: 1px solid #555;
+	border-bottom: 1px solid #555;
+}
+
+div.window div label {
+	width: 65px;
+	display: inline-block;
+}

@@ -1,0 +1,1 @@
+<?phpsession_start();mysql_connect("SERVER", "USER", "PASS");mysql_select_db("BD");function get($param) {	return str_replace("'", "´", trim($param));}function post($param) {	return str_replace("'", "´", trim($param));}?>
